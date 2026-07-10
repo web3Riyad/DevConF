@@ -1,0 +1,62 @@
+*{
+    font: "Open Sans",sans-serif;
+}
+
+.common-btn{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-size: 20px;
+    color: #5c5656;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section{
+    color: white;
+    background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0 70px 0;
+}
+.hero-section h2{
+    font-size: 80px;
+    padding: 0px;
+}
+.hero-section h2 span{
+    font-style: italic;
+}
+.hero-section p{
+    padding: 0px;
+    font-size: 22px;
+    font-weight: 400;
+    width: 800px;
+}
+.hero-btn{
+    padding-top: 70px;
+}
