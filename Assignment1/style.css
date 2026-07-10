@@ -82,3 +82,29 @@ ul{
     padding-top: 80px;
 }
 
+
+/* Card container */
+.speaker-container{
+    text-align: center;
+    font-size: 40px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.card{
+    text-align: left;
+    padding: 5px;
+}
+.card p span{
+    color: #2173c0c7;
+}
+.card p{
+    color: #5c5656;
+    padding: 0px;
+    margin: 0px;
+}
