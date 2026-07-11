@@ -78,8 +78,8 @@ nav ul{
 }
 
 .hero-btn {
-    margin-top: 50px;
-    padding-top: 80px;
+    margin: 50px 0;
+    padding: 80px 0;
 }
 
 
@@ -350,4 +350,143 @@ hr {
     padding-top: 25px;
     text-align: center;
     color: #9CA3AF;
+}
+
+
+
+/* Placeholder section */
+/*=========================
+    History Section
+=========================*/
+
+.history-section {
+
+    max-width: 1200px;
+
+    margin: 120px auto;
+
+    padding: 0 20px;
+}
+
+/* Title */
+
+.section-title {
+
+    text-align: center;
+
+    margin-bottom: 70px;
+}
+
+.section-title h2 {
+
+    font-size: 48px;
+
+    color: #111827;
+
+    margin-bottom: 15px;
+}
+
+.section-title p {
+
+    color: #6b7280;
+
+    font-size: 18px;
+}
+
+/*=========================
+    Timeline Card
+=========================*/
+
+.history-card {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 60px;
+
+    margin-bottom: 70px;
+}
+
+/* Alternate Layout */
+
+.history-card.reverse {
+
+    flex-direction: row-reverse;
+}
+
+/* Image */
+
+.history-image {
+
+    flex: 1;
+}
+
+.history-image img {
+
+    width: 100%;
+
+    border-radius: 20px;
+
+    display: block;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .12);
+}
+
+/* Text */
+
+.history-content {
+
+    flex: 1;
+}
+
+.year {
+
+    display: inline-block;
+
+    background: #2563eb;
+
+    color: white;
+
+    padding: 8px 18px;
+
+    border-radius: 50px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    margin-bottom: 20px;
+}
+
+.history-content h3 {
+
+    font-size: 34px;
+
+    margin-bottom: 20px;
+
+    color: #111827;
+}
+
+.history-content p {
+
+    color: #6b7280;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+/*=========================
+    Hover Effect
+=========================*/
+
+.history-image img {
+
+    transition: .35s;
+}
+
+.history-image img:hover {
+
+    transform: scale(1.03);
 }
