@@ -22,12 +22,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
 
 }
 
-ul{
+nav ul{
     display: flex;
     gap: 15px;
     list-style: none;
@@ -97,7 +97,7 @@ ul{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20PX;
-    max-width: 1400px;
+    max-width: 1200px;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -150,4 +150,80 @@ ul{
     color: #6B7280;
     line-height: 1.7;
     font-size: 16px;
+}
+
+
+/* price section container */
+
+.price-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0 ;
+}
+.price-text{
+    text-align: center;
+}
+
+.price-text h2{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: hsl(0, 6%, 85%);
+    margin: 30px 10px;
+}
+
+.price-card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.price-card{
+    border: 1px solid white;
+    background-color: rgb(235, 235, 235);
+    box-shadow: hsl(0, 33%, 74%);
+    padding: 20px 15px;
+}
+
+.pro{
+    background-color: #111827;
+    color: white;
+}
+.pro hr{
+    background-color: lab(27.62% 1.08 -5.13);
+}
+
+.price-btn{
+    margin:20px 0 0 0;
+    width: 90%;
+    height: 30px;
+}
+
+.std-btn{
+    border: 1px solid blue;
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.pro-btn{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+}
+
+.team-btn{
+    border: 1px solid #5a5858;
+    border-radius: 5px;
 }
