@@ -178,26 +178,66 @@ hr {
     border: none;
     height: 1px;
     background-color: hsl(0, 6%, 85%);
-    margin: 30px 10px;
+    margin: 0px 10px;
 }
 
-.price-card-container{
+.price-card-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 60px;
 }
 
-.price-card{
+/* .price-card{
     border: 1px solid white;
     background-color: rgb(235, 235, 235);
     box-shadow: hsl(0, 33%, 74%);
     padding: 20px 15px;
+} */
+.price-card {
+
+    flex: 1;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 35px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .08);
+    transition: .3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
-.pro{
-    background-color: #111827;
+.price-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .15);
+}
+.plan {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #2563EB;
+    text-transform: uppercase;
+}
+.price-card h2 {
+    font-size: 56px;
+    margin: 15px 0 5px;
+}
+
+.price-subtitle {
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+.pro .price-subtitle {
+    color: #cbd5e1;
+}
+
+.pro {
+    background: #111827;
     color: white;
+    transform: scale(1.05);
+    border: 2px solid #2563EB;
 }
 .pro hr{
     background-color: lab(27.62% 1.08 -5.13);
@@ -226,4 +266,17 @@ hr {
 .team-btn{
     border: 1px solid #5a5858;
     border-radius: 5px;
+}
+
+/* Footer section css */
+footer{
+    background-color: #111827;
+    color: white;
+    padding: 30px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

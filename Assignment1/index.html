@@ -12,8 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
+
+      <!-- fontase cdn -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <nav>
@@ -118,9 +120,9 @@
 
       <div class="price-card-container">
         <div class="price-card">
-          <p>STANDARD</p>
+          <p class="plan">STANDARD</p>
           <h2>$399</h2>
-          <p>per person</p>
+          <p class="price-sub">per person</p>
           <hr>
           <ul class="feature-list">
             <li>Access to all 3 conference days</li>
@@ -129,14 +131,14 @@
             <li>Networking lunch & coffee breaks</li>
             <li>Conference swag bag</li>
             <li>Digital recordings(30days)</li>
-            <button class="price-btn std-btn">Get Standard</button>
           </ul>
+          <button class="price-btn std-btn">Get Standard</button>
         </div>
 
         <div class="price-card pro">
-          <p style="color: blue;">PRO</p>
+          <p class="plan">PRO</p>
           <h2>$749</h2>
-          <p>per person</p>
+          <p class="price-sub">per person</p>
           <hr>
           <ul class="feature-list">
             <li>Everything in Standard</li>
@@ -145,14 +147,14 @@
             <li>VIP networking dinner</li>
             <li>Lifetime recording access</li>
             <li>1-on-1 mentorship (30min)</li>
-            <button class="price-btn pro-btn">Get Pro</button>
           </ul>
+          <button class="price-btn pro-btn">Get Pro</button>
         </div>
 
         <div class="price-card team">
-          <p>TEAm</p>
+          <p class="plan">TEAm</p>
           <h2>$5,999</h2>
-          <p>up to 10 people</p>
+          <p class="price-sub">up to 10 people</p>
           <hr>
           <ul class="feature-list">
             <li>Everything in Pro (10 Seats)</li>
@@ -161,10 +163,30 @@
             <li>Company logo on event page</li>
             <li>Recruitment both (1day)</li>
             <li>Proority customer support</li>
-            <button class="price-btn team-btn">Contact Us</button>
           </ul>
+          <button class="price-btn team-btn">Contact Us</button>
         </div>
       </div>
     </section>
+
+    <!-- Footer section -->
+    <footer>
+      <div class="footer-container">
+        <div class="left">
+          <img src="./assets/logo.png" alt="logo">
+        </div>
+
+        <div class="right">
+          <i class="fa-brands fa-square-facebook fa-lg" style="color: rgb(8, 48, 80);"></i>
+          <i class="fa-brands fa-instagram" style="color: rgb(164, 25, 137);"></i>
+          <i class="fa-brands fa-linkedin" style="color: rgb(9, 56, 94);"></i>
+
+
+        </div>
+      </div>
+
+      <hr>
+      <i class="fa fa-copyright" aria-hidden="false">@2026 DevConf. All rights reserved</i>
+    </footer>
   </body>
 </html>
